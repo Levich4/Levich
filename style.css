@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: 70px;
+}
+
+header {
+    background-color: white;
+}
+
+.pad {
+    display: block;
+    background-color: black;
+    padding: 10px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 20px;
+    color: darkgray;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+.info button:hover {
+    background-color: red;
+    color: lightgray;
+    cursor: pointer;
+}
+
+.background {
+    background-image: linear-gradient(to right, rgba(113, 54, 54, 0.8), rgba(255, 0, 0, 0)), url('back.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.background h2, p {
+    padding-left: 100px;
+    color: white;
+}
+
+.sidebar {
+    width: 15%;
+    background-color: rgba(178, 208, 223, 0.5);
+    align-items: center;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    width: 100%;
+}
+
+.product-grid {
+    display: inline-block;
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.sidebar {
+    display: inline-block;
+    height: 10em;
+    margin-top: 20px;
+}
+
+.maincont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.classpad {
+    padding: 10px;
+    background-color: white;
+}
+
+.product img {
+    display: block;
+    width: 100%;
+}
+
+.product {
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.product img:hover {
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 20px;
+}
+
+.info h3 {
+    position: relative;
+    bottom: 580px;
+}
+
+.info button {
+    display: block;
+    text-align: center;
+    background-color: rgb(150, 0, 0);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+a:hover {
+    display: inline-block;
+    background-color: lightgray;
+    color: black;
+}
+
+.text {
+    position: sticky;
+    top: 20px;
+}
+
+.text p {
+    padding-top: 10px;
+}
+
+.bord {
+    position: relative;
+    border-bottom: 1px solid white;
+    left: 100px;
+    width: 85%;
+}
